@@ -44,6 +44,13 @@
                 border-color: white;
                 letter-spacing: 3px;
             }
+            #userInfo{
+                border: 2px dotted red;
+                margin-top: 15px;
+                display: inline-block;
+                color:black;
+                background-color: #a5a5a5;
+            }
             /*#login{*/
             /*    color:black;*/
             /*    display: inline-block;*/
@@ -65,6 +72,13 @@
             <input class='enter' type="password" name="password" placeholder="password"/><br>
             <input class='button' type="submit" name="submit" value="Login"/><br>
         </form>
+        </div>
+        
+        <div id="userInfo">
+            <h3>Admin Username: admin / Admin Password: admin</h3>
+            <h4>Sample username for testing: caprisunpapi</h4>
+            <h4>Sample password for testing: ilikeshoes</h4>
+            <p>*other usernames and passwords can be found on the admin page</p>
         </div>
 
     </body>
